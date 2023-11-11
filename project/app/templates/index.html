@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>States</title>
+</head>
+<body>
+{%for state in states%}
+<div>
+  <a href="#">
+    <div class="transition duration-500 hover:scale-125 hover:bg-white-600 flex justify-center items-center rounded-xl">
+      <img src="{{ state.image.url }}"/>
+    </div>
+  </a>
+</div>
+{%endfor%}
+</body>
+</html>
